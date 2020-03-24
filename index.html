@@ -6,6 +6,35 @@
 body
 {
 		background-color : #00ffff;
+}
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding : 0;
+	overflow: hidden;
+	background-color: #000099;
+}
+li
+{
+	float: left;
+}
+li a 
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a: hover
+{
+background-color: 	#0000ff;
+}
+a.active 
+{
+  background-color: #00ffff;
+  color: black;
 }		
 h1
 {
@@ -41,9 +70,9 @@ a
 		padding : 1em 3em;
 		border : 8px solid white;
 		font-family : calibri;
-		font-size : 15pt;
-		width: 365px;
-		height: 80px;
+		font-size : 10pt;
+		width: 100px;
+		height: 35px;
 		text-align : center;
 }
 a:hover
@@ -63,10 +92,15 @@ img
 </head>
 <body>
 <h1></h1>
+<ul>
+	<li><a href = index.html class = "active">Home</a></li>
+	<li><a href = timeline.html>A small time-line of AI</a></li>
+	<li><a href = weakvstrong.html>Weak vs Strong AI</a></li>
+	<li><a href = FOA.html>Future of AI</a></li>
+	<li><a href = biblio.html>A bibliography</a></li>
+</ul>
 <h2>Hi!</h2>
-<p>Welcome to my website! Its aim is to give you a brief overview of AI and quickly inform you about some of the best-bits, like the rouge AI that swore, or whether a 'singularity will take place'.</p>
-<a href = timeline.html>A small time-line of AI</a>
-<a href = biblio.html>A bibliography of any copied and pasted text repurposed for my audience</a>
-<a href = weakvstrong.html>Weak vs Strong AI</a>
+<p>Welcome to my website! Its aim is to give you a brief overview of AI and quickly inform you about some of the best-bits.</p>
+
 </body>
 </html>

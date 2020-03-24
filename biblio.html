@@ -15,7 +15,30 @@ h1
 		text-align : center;
 		font-size : 30pt;
 }
-
+ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding : 0;
+	overflow: hidden;
+	background-color: #000099;
+}
+li
+{
+	float: left;
+}
+li a 
+{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a: hover
+{
+background-color: 	#0000ff;
+}
 h2
 {
 		color : white;
@@ -41,11 +64,31 @@ a
 		padding : 1em 3em;
 		border : 8px solid white;
 		font-family : calibri;
-		font-size : 15pt;
-		width: 365px;
-		height: 80px;
+		font-size : 10pt;
+		width: 100px;
+		height: 35px;
 		text-align : center;
 }
+a.active 
+{
+  background-color: #00ffff;
+  color: black;
+}
+a.big
+{
+			float : left;
+		width : 30em;
+		text-decoration : none;
+		color : black;
+		background-color : dark blue;
+		padding : 1em 3em;
+		border : 8px solid white;
+		font-family : calibri;
+		font-size : 16pt;
+		width: 180px;
+		height: 80px;
+		text-align : center;
+}	
 a:hover
 {
 		background-color : blue;
@@ -61,8 +104,17 @@ img
 }	</style>
 </head>
 <body>
+<ul>
+	<li><a href = index.html>Home</a></li>
+	<li><a href = timeline.html>A small time-line of AI</a></li>
+	<li><a href = weakvstrong.html>Weak vs Strong AI</a></li>
+	<li><a href = FOA.html>Future of AI</a></li>
+	<li><a href = biblio.html class=active>A bibliography</a></li>
+</ul>
 <h1>Bibliography</h1>
-<a href= "http://webhome.auburn.edu/~vestmon/robotics.html" class="nohover">Three laws of robotics</a>
-<a href = "index.html">Home</a>
+<a href= "http://webhome.auburn.edu/~vestmon/robotics.html" class=big >Three laws of robotics</a>
+<a href= "https://venturebeat.com/2019/02/08/ai-weekly-the-ai-research-agenda-for-the-next-20-years-is-being-made-now/" class=big >Future Of AI</a>
+<a href= "https://www.slideshare.net/papisdotio/past-present-and-future-of-ai-a-fascinating-journey-ramon-lopez-de-mantaras-papis-connect" class=big >Source of picture from section on weak and strong AI</a>
+<a href= "https://www.i-programmer.info/babbages-bag/297-artificial-intelligence.html" class=big >Source of information on weak and strong AI</a>
 </body>
 </html>
